@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>مجتمع آموزشی و دبیرستان استعدادهای درخشان پدیده دانش</title>
+    <meta name="description" content="سامانه یکپارچه مدیریت آموزشی، کارنامه، نمرات، حضور و غیاب، برنامه هفتگی و تحلیل پیشرفت تحصیلی مجتمع آموزشی و دبیرستان استعدادهای درخشان پدیده دانش" />
+    <meta property="og:title" content="مجتمع آموزشی و دبیرستان استعدادهای درخشان پدیده دانش" />
+    <meta property="og:description" content="سامانه یکپارچه مدیریت آموزشی، کارنامه، نمرات، حضور و غیاب، برنامه هفتگی و تحلیل پیشرفت تحصیلی مجتمع آموزشی و دبیرستان استعدادهای درخشان پدیده دانش" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#2563EB" />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('padideh_danesh_theme') || localStorage.getItem('dana_school_theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="font-sans antialiased text-slate-800 dark:text-slate-100 bg-[#F8FAFC] dark:bg-[#0F172A] min-h-screen overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
